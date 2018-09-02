@@ -1,26 +1,18 @@
 variable "alm_hardware" {}
 
-variable "accesslevelprivate" {
-	description = "set  bucket to private"
-	default 
-}
+variable "accesslevelprivate" {}
 
 
 
-variable "cmdb" {
-	description = "cmdb tag"
-}
+variable "cmdb" {}
 
 
 
-variable "contactinfo" {
-	description = "contact info tag"
-}
+variable "contactinfo" {}
 
 
 
 variable "asv" {
-	description = "asv tag"
 }
 
 
