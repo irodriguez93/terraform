@@ -5,4 +5,12 @@ provider "aws" {
 }
 module "s3" {
 	source = "./s3"
+	alm_hardware= "${var.alm_hardware}"
+	accesslevelprivate= "${var.accesslevelprivate}"
+	cmdb = "${var.cmdb}"
+	contactinfo= "${var.contactinfo}"
+	asv= "${var.asv}"
+
+
+
 }
