@@ -1,1 +1,1 @@
-{"Modules":[{"Source":"./s3","Key":"1.s3;./s3","Version":"","Dir":".terraform/modules/99ab3a5d46bf6c97eb93005e702cddc9","Root":""}]}
+{"Modules":[{"Source":"./s3","Key":"1.s3;./s3","Version":"","Dir":".terraform/modules/99ab3a5d46bf6c97eb93005e702cddc9","Root":""},{"Source":"./lambda","Key":"1.lambda;./lambda","Version":"","Dir":".terraform/modules/7c9e0fdff45ce749c78ceab74c65b54b","Root":""}]}

@@ -11,6 +11,8 @@ module "s3" {
 	contactinfo= "${var.contactinfo}"
 	asv= "${var.asv}"
 
+}
 
-
+module "lambda" {
+	source = "./lambda"
 }
